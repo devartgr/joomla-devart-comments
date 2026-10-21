@@ -6,12 +6,12 @@
         <element>pkg_devartcomments</element>
         <type>package</type>
         <client>site</client>
-        <version>1.1.0</version>
+        <version>1.1.1</version>
         <infourl title="DevArt Comments">https://github.com/devartgr/joomla-devart-comments</infourl>
         <downloads>
-            <downloadurl type="full" format="zip">https://github.com/devartgr/joomla-devart-comments/releases/download/v1.1.0/pkg_devartcomments_v1.1.0.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://github.com/devartgr/joomla-devart-comments/releases/download/v1.1.1/pkg_devartcomments_v1.1.1.zip</downloadurl>
         </downloads>
-        <sha256>79d0bcb675e47d066c995ea300651a38d73484e74a52ec96fd10446b563e4790</sha256>
+        <sha256>49bc28127d80984d21ef55274bdc1655ada06513ab33bc1ddad7544dde6113fb</sha256>
         <tags>
             <tag>stable</tag>
         </tags>

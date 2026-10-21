@@ -6,7 +6,7 @@ cache-safe write endpoints, and Cloudflare-friendly frontend behaviour.
 
 ![Joomla](https://img.shields.io/badge/Joomla-6.x-blue)
 ![PHP](https://img.shields.io/badge/PHP-8.3%2B-green)
-![Release](https://img.shields.io/badge/Version-1.1.0-orange)
+![Release](https://img.shields.io/badge/Version-1.1.1-orange)
 ![License](https://img.shields.io/badge/License-GPLv2%2B-red)
 
 ---
@@ -31,9 +31,9 @@ The extension targets Joomla 6, PHP 8.3+, Full Page Cache, and Cloudflare.
 
 ---
 
-## Version 1.1.0
+## Version 1.1.1
 
-DevArt Comments **1.1.0** is the first **public** release.
+DevArt Comments **1.1.1** is the current public release (first public was 1.1.0).
 
 ### Highlights
 
@@ -54,8 +54,8 @@ DevArt Comments **1.1.0** is the first **public** release.
 
 ### Safe update
 
-First public release. Safe install on a new site, or update from late `1.0.x`
-development builds using the full `pkg_devartcomments` package only.
+Safe update from `1.1.0` using the full `pkg_devartcomments` package only.
+Also safe install on a new site, or update from late `1.0.x` development builds.
 
 ---
 
@@ -73,7 +73,7 @@ No Joomla 3/4/5 or PHP 8.2-and-below compatibility.
 
 1. Download:
 
-   `pkg_devartcomments_v1.1.0.zip`
+   `pkg_devartcomments_v1.1.1.zip`
 
 2. Open Joomla administrator.
 
@@ -120,7 +120,7 @@ host thin plugin is installed and pair-QA passes.
 
 Latest release:
 
-`pkg_devartcomments_v1.1.0.zip`
+`pkg_devartcomments_v1.1.1.zip`
 
 GitHub releases:
 
@@ -128,11 +128,11 @@ https://github.com/devartgr/joomla-devart-comments/releases
 
 Direct download:
 
-https://github.com/devartgr/joomla-devart-comments/releases/download/v1.1.0/pkg_devartcomments_v1.1.0.zip
+https://github.com/devartgr/joomla-devart-comments/releases/download/v1.1.1/pkg_devartcomments_v1.1.1.zip
 
 SHA-256:
 
-`79d0bcb675e47d066c995ea300651a38d73484e74a52ec96fd10446b563e4790`
+`49bc28127d80984d21ef55274bdc1655ada06513ab33bc1ddad7544dde6113fb`
 
 ---
 
