@@ -1,1 +1,29 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+    <changelog>
+        <element>pkg_devartcomments</element>
+        <type>package</type>
+        <version>1.1.0</version>
+        <addition>
+            <item>First public release for Joomla 6 / PHP 8.3+</item>
+            <item>Article comments via context + item_id with SSR first page, guest email OTP, registered users, replies, likes, reports, and subscriptions</item>
+            <item>Bot protection: Proof of Work, Google reCAPTCHA v2, Cloudflare Turnstile</item>
+            <item>Admin moderation, bans, per-item overrides, privacy export/erase, and background job queue</item>
+            <item>Multi-context Comments-side policies for Video, Business, and Events (enable_* default Off until host thin plugins + pair-QA)</item>
+            <item>Denylist exclusions and Latest Comments module source selector</item>
+            <item>Fifteen bundled language packs</item>
+        </addition>
+        <fix>
+            <item>Schema installer no longer clamps #__schemas versions &gt;= 1.1.0 back to 1.0.38</item>
+            <item>Unified creationDate to 2026-10-21 across package manifests</item>
+            <item>Clarified Settings Cache help text: Joomla cache switch does not control Cloudflare purge (credentials in DevArt Utils)</item>
+        </fix>
+        <note>
+            <item>Requires Joomla 6.0+ and PHP 8.3+</item>
+            <item>Install or update using the full pkg_devartcomments package only</item>
+            <item>First public release (1.1.0); safe install on a new site or update from late 1.0.x development builds</item>
+            <item>Cloudflare URL purge requires DevArt Utils with Cloudflare credentials configured</item>
+            <item>Keep enable_video / enable_business / enable_events Off until the matching host thin plugin is installed and pair-QA passes</item>
+        </note>
+    </changelog>
+</changelogs>

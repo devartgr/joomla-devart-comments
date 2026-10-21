@@ -1,1 +1,24 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+    <update>
+        <name>DevArt Comments Package</name>
+        <description>Comments for Joomla 6 with guest email OTP, cache-safe endpoints, moderation, and Cloudflare-aware purge.</description>
+        <element>pkg_devartcomments</element>
+        <type>package</type>
+        <client>site</client>
+        <version>1.1.0</version>
+        <infourl title="DevArt Comments">https://github.com/devartgr/joomla-devart-comments</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/devartgr/joomla-devart-comments/releases/download/v1.1.0/pkg_devartcomments_v1.1.0.zip</downloadurl>
+        </downloads>
+        <sha256>79d0bcb675e47d066c995ea300651a38d73484e74a52ec96fd10446b563e4790</sha256>
+        <tags>
+            <tag>stable</tag>
+        </tags>
+        <changelogurl>https://raw.githubusercontent.com/devartgr/joomla-devart-comments/main/changelog.xml</changelogurl>
+        <targetplatform name="joomla" version="6.*" />
+        <php_minimum>8.3.0</php_minimum>
+        <maintainer>Kostas Stathopoulos</maintainer>
+        <maintainerurl>https://devart.gr</maintainerurl>
+    </update>
+</updates>
