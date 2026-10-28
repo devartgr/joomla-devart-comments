@@ -3,14 +3,18 @@
     <changelog>
         <element>pkg_devartcomments</element>
         <type>package</type>
-        <version>1.1.1</version>
+        <version>1.1.2</version>
+        <addition>
+            <item>Administrator Comments list: Placement column links to the frontend item URL (articles and host contexts when resolvable)</item>
+        </addition>
         <fix>
-            <item>Settings Exclusions: skip Video / Business / Events category fields when those host tables are not installed (avoids SQL 1146 on Comments-only sites)</item>
+            <item>Guest display name limited to 40 characters (HTML maxlength + server validation)</item>
+            <item>Administrator Placement links for Video / Business / Events resolve via site menu path + item alias (no homepage or /administrator URLs)</item>
         </fix>
         <note>
             <item>Requires Joomla 6.0+ and PHP 8.3+</item>
             <item>Install or update using the full pkg_devartcomments package only</item>
-            <item>Safe update from 1.1.0</item>
+            <item>Safe update from 1.1.1</item>
         </note>
     </changelog>
 </changelogs>

@@ -6,7 +6,7 @@ cache-safe write endpoints, and Cloudflare-friendly frontend behaviour.
 
 ![Joomla](https://img.shields.io/badge/Joomla-6.x-blue)
 ![PHP](https://img.shields.io/badge/PHP-8.3%2B-green)
-![Release](https://img.shields.io/badge/Version-1.1.1-orange)
+![Release](https://img.shields.io/badge/Version-1.1.2-orange)
 ![License](https://img.shields.io/badge/License-GPLv2%2B-red)
 
 ---
@@ -31,9 +31,9 @@ The extension targets Joomla 6, PHP 8.3+, Full Page Cache, and Cloudflare.
 
 ---
 
-## Version 1.1.1
+## Version 1.1.2
 
-DevArt Comments **1.1.1** is the current public release (first public was 1.1.0).
+DevArt Comments **1.1.2** is the current public release (first public was 1.1.0).
 
 ### Highlights
 
@@ -46,6 +46,8 @@ DevArt Comments **1.1.1** is the current public release (first public was 1.1.0)
 - 15 language packs (`en-GB`, `el-GR`, `fr-FR`, `de-DE`, `es-ES`, `it-IT`,
   `pt-BR`, `cs-CZ`, `nl-NL`, `pl-PL`, `ru-RU`, `uk-UA`, `ja-JP`, `tr-TR`,
   `zh-CN`)
+- **1.1.2:** Admin Placement links open the correct frontend item (articles +
+  Video/Business/Events); guest display name max 40 characters
 
 ### Requirements
 
@@ -54,8 +56,8 @@ DevArt Comments **1.1.1** is the current public release (first public was 1.1.0)
 
 ### Safe update
 
-Safe update from `1.1.0` using the full `pkg_devartcomments` package only.
-Also safe install on a new site, or update from late `1.0.x` development builds.
+Safe update from `1.1.1` using the full `pkg_devartcomments` package only.
+Also safe install on a new site, or update from late `1.0.x` / `1.1.0` builds.
 
 ---
 
@@ -73,7 +75,7 @@ No Joomla 3/4/5 or PHP 8.2-and-below compatibility.
 
 1. Download:
 
-   `pkg_devartcomments_v1.1.1.zip`
+   `pkg_devartcomments_v1.1.2.zip`
 
 2. Open Joomla administrator.
 
@@ -120,7 +122,7 @@ host thin plugin is installed and pair-QA passes.
 
 Latest release:
 
-`pkg_devartcomments_v1.1.1.zip`
+`pkg_devartcomments_v1.1.2.zip`
 
 GitHub releases:
 
@@ -128,11 +130,11 @@ https://github.com/devartgr/joomla-devart-comments/releases
 
 Direct download:
 
-https://github.com/devartgr/joomla-devart-comments/releases/download/v1.1.1/pkg_devartcomments_v1.1.1.zip
+https://github.com/devartgr/joomla-devart-comments/releases/download/v1.1.2/pkg_devartcomments_v1.1.2.zip
 
 SHA-256:
 
-`49bc28127d80984d21ef55274bdc1655ada06513ab33bc1ddad7544dde6113fb`
+`3a9e0b1762e28e21aac1d066e37e1c0e5a3d6b6503bca099730a925b69995ecc`
 
 ---
 
