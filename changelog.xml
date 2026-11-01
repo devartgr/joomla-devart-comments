@@ -3,18 +3,19 @@
     <changelog>
         <element>pkg_devartcomments</element>
         <type>package</type>
-        <version>1.1.2</version>
-        <addition>
-            <item>Administrator Comments list: Placement column links to the frontend item URL (articles and host contexts when resolvable)</item>
-        </addition>
+        <version>1.1.3</version>
         <fix>
-            <item>Guest display name limited to 40 characters (HTML maxlength + server validation)</item>
-            <item>Administrator Placement links for Video / Business / Events resolve via site menu path + item alias (no homepage or /administrator URLs)</item>
+            <item>Cloudflare purge jobs inspect Utils purgeUrl/purgeUrls success and retry soft failures</item>
+            <item>Cloudflare purges use batched purgeUrls; frontend/API URLs resolve safely from admin and CLI</item>
+            <item>Admin comment publish/delete passes focus/replies purge hints; pending CF jobs refresh payload</item>
+            <item>Article unpublish/delete captures page URLs for edge HTML purge; joomla_cache debounce is capped</item>
+            <item>Report and subscriber mail use context-aware access for Video/Business/Events hosts</item>
+            <item>Fresh install SQL includes item_stats.list_revision; OTP mail uses SMTP Timeout</item>
         </fix>
         <note>
             <item>Requires Joomla 6.0+ and PHP 8.3+</item>
             <item>Install or update using the full pkg_devartcomments package only</item>
-            <item>Safe update from 1.1.1</item>
+            <item>Safe update from 1.1.2</item>
         </note>
     </changelog>
 </changelogs>
