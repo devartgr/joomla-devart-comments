@@ -3,19 +3,15 @@
     <changelog>
         <element>pkg_devartcomments</element>
         <type>package</type>
-        <version>1.1.3</version>
+        <version>1.1.4</version>
         <fix>
-            <item>Cloudflare purge jobs inspect Utils purgeUrl/purgeUrls success and retry soft failures</item>
-            <item>Cloudflare purges use batched purgeUrls; frontend/API URLs resolve safely from admin and CLI</item>
-            <item>Admin comment publish/delete passes focus/replies purge hints; pending CF jobs refresh payload</item>
-            <item>Article unpublish/delete captures page URLs for edge HTML purge; joomla_cache debounce is capped</item>
-            <item>Report and subscriber mail use context-aware access for Video/Business/Events hosts</item>
-            <item>Fresh install SQL includes item_stats.list_revision; OTP mail uses SMTP Timeout</item>
+            <item>PHP file headers and XML license tags use the Joomla-standard GNU GPL v2 or later notice for JED PH1 compatibility</item>
+            <item>LICENSE.txt included in package members</item>
         </fix>
         <note>
             <item>Requires Joomla 6.0+ and PHP 8.3+</item>
             <item>Install or update using the full pkg_devartcomments package only</item>
-            <item>Safe update from 1.1.2</item>
+            <item>Safe update from 1.1.3</item>
         </note>
     </changelog>
 </changelogs>

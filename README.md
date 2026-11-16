@@ -6,7 +6,7 @@ cache-safe write endpoints, and Cloudflare-friendly frontend behaviour.
 
 ![Joomla](https://img.shields.io/badge/Joomla-6.x-blue)
 ![PHP](https://img.shields.io/badge/PHP-8.3%2B-green)
-![Release](https://img.shields.io/badge/Version-1.1.3-orange)
+![Release](https://img.shields.io/badge/Version-1.1.4-orange)
 ![License](https://img.shields.io/badge/License-GPLv2%2B-red)
 
 ---
@@ -31,9 +31,9 @@ The extension targets Joomla 6, PHP 8.3+, Full Page Cache, and Cloudflare.
 
 ---
 
-## Version 1.1.3
+## Version 1.1.4
 
-DevArt Comments **1.1.3** is the current public release (first public was 1.1.0).
+DevArt Comments **1.1.4** is the current public release (first public was 1.1.0).
 
 ### Highlights
 
@@ -46,9 +46,9 @@ DevArt Comments **1.1.3** is the current public release (first public was 1.1.0)
 - 15 language packs (`en-GB`, `el-GR`, `fr-FR`, `de-DE`, `es-ES`, `it-IT`,
   `pt-BR`, `cs-CZ`, `nl-NL`, `pl-PL`, `ru-RU`, `uk-UA`, `ja-JP`, `tr-TR`,
   `zh-CN`)
-- **1.1.3:** Cloudflare purge reliability (Utils success check, batched
-  `purgeUrls`, admin/CLI-safe frontend URLs, article unpublish/delete HTML
-  purge); host-aware report/notify ACL; fresh-install `list_revision`
+- **1.1.4:** Joomla-standard GPL license notices in all PHP headers / XML
+  manifests + `LICENSE.txt` (JED PH1)
+- **1.1.3:** Cloudflare purge reliability and host-aware cache/ACL fixes
 
 ### Requirements
 
@@ -57,7 +57,7 @@ DevArt Comments **1.1.3** is the current public release (first public was 1.1.0)
 
 ### Safe update
 
-Safe update from `1.1.2` using the full `pkg_devartcomments` package only.
+Safe update from `1.1.3` using the full `pkg_devartcomments` package only.
 Also safe install on a new site, or update from late `1.0.x` / `1.1.x` builds.
 
 ---
@@ -76,7 +76,7 @@ No Joomla 3/4/5 or PHP 8.2-and-below compatibility.
 
 1. Download:
 
-   `pkg_devartcomments_v1.1.3.zip`
+   `pkg_devartcomments_v1.1.4.zip`
 
 2. Open Joomla administrator.
 
@@ -123,7 +123,7 @@ host thin plugin is installed and pair-QA passes.
 
 Latest release:
 
-`pkg_devartcomments_v1.1.3.zip`
+`pkg_devartcomments_v1.1.4.zip`
 
 GitHub releases:
 
@@ -131,11 +131,11 @@ https://github.com/devartgr/joomla-devart-comments/releases
 
 Direct download:
 
-https://github.com/devartgr/joomla-devart-comments/releases/download/v1.1.3/pkg_devartcomments_v1.1.3.zip
+https://github.com/devartgr/joomla-devart-comments/releases/download/v1.1.4/pkg_devartcomments_v1.1.4.zip
 
 SHA-256:
 
-`7382c6ea8a1220e21e3bc4a0cd9e5b91cc15c007d017428d7a5b663400b64ff0`
+`7ea09508822687ac960ade6ac67eb0328bae6fd37d9c0e1c418c0f4c04335951`
 
 ---
 
